@@ -32,7 +32,7 @@ const IndexPage = () => (
     </p>
     <p>
       Amongst other things, I’m a pround uncle, Arsenal 😭 and Warriors fan.
-      When I'm not coding, I enjoy watching movies, reading, occasional gaming, 
+      When I'm not coding, I enjoy watching movies, reading, occasional gaming,
       a good time out as long as food is involved.
     </p>
   </Layout>
