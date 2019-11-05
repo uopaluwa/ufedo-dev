@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }} className="mx-auto">
+    <div style={{ maxWidth: `180px` }} className="mx-auto mb-4">
       <Image />
     </div>
     <h1>
