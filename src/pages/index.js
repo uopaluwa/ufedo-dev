@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import { FaLinkedinIn, FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa"
-import { IconContext } from "react-icons"
+import { FaTwitter, FaGithub, FaLinkedin } from "react-icons/fa"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
