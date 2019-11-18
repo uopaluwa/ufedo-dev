@@ -3,9 +3,9 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Footer = ({ siteTitle }) => (
-  <footer className="h-20 bg-purple-700 text-l text-white text-center">
+  <footer className="h-20 bg-purple-700 text-white">
     <div className="p-5">
-      © {new Date().getFullYear()} {siteTitle}, Built using
+      © 2019 {siteTitle}, Built using
       {` `}
       <a href="https://www.gatsbyjs.org">Gatsby</a>
     </div>

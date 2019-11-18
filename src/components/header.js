@@ -5,7 +5,7 @@ import React from "react"
 import Logo from "./logo"
 
 const Header = ({ siteTitle }) => (
-  <header className="mb-16">
+  <header>
     <div className="flex items-center text-purple-700 justify-between p-5">
       <h2 className="">
         <Link to="/">

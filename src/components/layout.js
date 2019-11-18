@@ -12,7 +12,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import Footer from "./footer"
 import "./layout.css"
-import { red } from "ansi-colors"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,7 +27,7 @@ const Layout = ({ children }) => {
   return (
     <div className="flex flex-col h-screen">
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="flex-grow max-w-3xl mx-auto">
+      <div className="flex-grow md:max-w-2xl sm:max-w-lg max-w-3xl mx-auto px-5 pt-8 pb-10">
         <main>{children}</main>
       </div>
       <Footer siteTitle={data.site.siteMetadata.title} />
