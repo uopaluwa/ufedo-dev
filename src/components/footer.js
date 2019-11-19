@@ -1,9 +1,8 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
 const Footer = ({ siteTitle }) => (
-  <footer className="h-20 bg-purple-700 text-white">
+  <footer className="h-20 text-purple-700">
     <div className="p-5">
       © 2019 {siteTitle}, Built using
       {` `}
