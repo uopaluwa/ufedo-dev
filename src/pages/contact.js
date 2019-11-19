@@ -11,7 +11,7 @@ const Contact = () => (
         <h1 className="text-3xl mb-2 mt-2 text-center">SAY HELLO</h1>
         <p className="invisible">
           <label>Don't fill this out if you're human: 
-          <input name="form-name" type="hidden" value="contact" /></label>
+          <input name="form-name" value="contact" /></label>
         </p>
         <div className="mb-4">
           <label>
