@@ -6,7 +6,11 @@ import SEO from "../components/seo"
 const BlogPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="sm:text-2xl md:text-4xl">🚧 Blog will be launched soon!! 🚧</div>
+    <div className="sm:text-2xl md:text-4xl">
+      <span role="img" aria-label="construction sign">🚧</span>
+      Blog will be launched soon!!
+      <span role="img" aria-label="construction sign">🚧</span>
+    </div>
   </Layout>
 )
 
