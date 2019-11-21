@@ -9,7 +9,7 @@ const About = () => (
     </div>
     <p className="text-4xl">
       Hi{" "}
-      <span role="img" aria-label="waving hand">
+      <span className="inline-block waving" role="img" aria-label="waving hand">
         👋🏼
       </span>      
     </p>
