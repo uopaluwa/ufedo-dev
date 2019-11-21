@@ -23,14 +23,16 @@ const About = () => (
       I enjoy working on products and tools that enable
       people and businesses be more productive and efficient. I’m always
       thinking; how can I automate this, how can I make this process easier, 
-      how can I enable people to create, express their creativity and get things done.
+      how can I enable people to express their creativity and get things done.
     </p>
     <p className="mb-2">
-      I’ve worked with companies like HappyMoney, Parkloco building products and
-      solutions to delight users.
+      I’ve worked with companies like{" "}
+      <a className="hover:text-purple-700 hover:underline" href="https://happymoney.com/" target="_blank" rel="noopener noreferrer">HappyMoney</a>,{" "} 
+      <a className="hover:text-purple-700 hover:underline" href="http://www.parkloco.com/" target="_blank" rel="noopener noreferrer">Parkloco</a>{" "}
+      building products and solutions to delight users.
     </p>
     <p className="mb-2">
-      Amongst other things, I’m a pround uncle, Arsenal <span role="img" aria-label="loudly crying face">😭</span> 
+      Amongst other things, I’m a pround uncle, Arsenal <span role="img" aria-label="loudly crying face">😭 </span> 
       and Warriors fan. When I'm not coding, I enjoy watching movies, reading, occasional gaming,
       a good time out + good food.
     </p>
